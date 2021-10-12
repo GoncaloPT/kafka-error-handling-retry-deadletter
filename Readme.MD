@@ -1,5 +1,7 @@
 # Kafka Error Handling: Retry and Deadletter
 
+The goal of this repository is both to store documentation but also code done while both learning and trying out using deadletter queue ( topic actually ) in kafka.
+
 ## Retry
 The simple action of trying to consume the message again.
 This can be performed multiple times ( not infinite ) and the retry interval should grow with number of retries.
@@ -12,7 +14,7 @@ For example you can have a specific field on a message that when present/true wi
 ## Pre requisites / Setup
 
 1. Setup Confluent cloud account 
-1. setup cli 
+1. setup cli (optional)
 `curl -L --http1.1 https://cnfl.io/ccloud-cli | sh -s -- -b /usr/local/bin`  
 create and retrieve a api-key for latter use  
 `ccloud api-key create --resource <resource>`  
@@ -62,9 +64,12 @@ Flow is: message consumed > if(db_connection_exception) retryLater() else sendTo
 
 
 
-
 ## Bibliography
 
 . kafka ( deadletter and retry )
 https://www.youtube.com/watch?v=t8_y5Ac_flo&ab_channel=DXLab
+
+## NEXT STEPS   
+
+Implement the same but only using java kafka consumer ( not spring boot)
 
