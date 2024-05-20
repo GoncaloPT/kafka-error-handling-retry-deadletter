@@ -45,14 +45,14 @@ message, like the original topic, partition and exception message.
 #### Header ideas
 
 Headers can be used to make the deadletter message more rich. Some ideas are:
-deadletter-original-trace-id
-deadletter-original-topic
-deadletter-original-partition
-deadletter-original-offset
-deadletter-original-timestamp
-deadletter-exception-classname
-deadletter-exception-stacktrace
-deadletter-exception-message
+- deadletter-original-trace-id
+- deadletter-original-topic
+- deadletter-original-partition
+- deadletter-original-offset
+- deadletter-original-timestamp
+- deadletter-exception-classname
+- deadletter-exception-stacktrace
+- deadletter-exception-message
 
 ### Selective retry
 
