@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-deadletter/deadletter.iml" filepath="$PROJECT_DIR$/spring-boot-deadletter/deadletter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/error-handling-retry-deadletter.iml" filepath="$PROJECT_DIR$/.idea/error-handling-retry-deadletter.iml" />
     </modules>
   </component>
