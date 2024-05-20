@@ -72,10 +72,12 @@ for automated processing.
 ```mermaid
 mindmap
     root((Deadletter))
-        topic-retry-2
-            topic-retry-1
+        my-first-topic-retry-2
+            my-first-topic-retry-1
                 My-first-topic
-                My-last-topic
+        my-last-topic-retry-2
+            my-last-topic-retry-1
+                My-last-topic        
 
 ```
 
